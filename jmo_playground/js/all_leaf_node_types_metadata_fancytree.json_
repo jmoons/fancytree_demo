@@ -1,0 +1,187 @@
+{
+  "key": "Root",
+  "title": "Root",
+  "director_label_translations":
+  {
+    "en": "Root",
+    "fr": "Root",
+    "de": "Root",
+    "es": "Root"
+  },
+  "define_views_footer_information":
+  {
+    "en": "All possible leaf-nodes demonstrated with this metadata"
+  },
+  "children":
+  [
+    {
+      "key": "container_node",
+      "title": "Container Node",
+      "director_label_translations":
+      {
+        "en": "Container Node"
+      },
+      "children":
+      [
+      ]
+    },
+    {
+      "key": "price_leaf_node",
+      "title": "Price Leaf Node",
+      "director_label_translations":
+      {
+        "en": "Price Leaf Node"
+      },
+      "type": "price"
+    },
+    {
+      "key": "string_leaf_node",
+      "title": "String Leaf Node",
+      "director_label_translations":
+      {
+        "en": "String Leaf Node"
+      },
+      "type": "string"
+    },
+    {
+      "key": "boolean_leaf_node",
+      "title": "Boolean Leaf Node",
+      "director_label_translations":
+      {
+        "en": "Boolean Leaf Node"
+      },
+      "type": "boolean"
+    },
+    {
+      "key": "select_with_no_associated_keys_leaf_node",
+      "title": "Select With No Associated Keys Leaf Node",
+      "director_label_translations":
+      {
+        "en": "Select With No Associated Keys Leaf Node"
+      },
+      "type": "select",
+      "select_options":
+      [
+        {
+          "option": "select_option_one",
+          "type": "select_option",
+          "director_label_translations":
+          {
+            "en": "Select Option One"
+          }
+        },
+        {
+          "option": "select_option_two",
+          "type": "select_option",
+          "director_label_translations":
+          {
+            "en": "Select Option Two"
+          }
+        }
+      ]
+    },
+    {
+      "key": "select_with_associated_keys_leaf_node",
+      "title": "Select With Associated Keys Leaf Node",
+      "director_label_translations":
+      {
+        "en": "Select With Associated Keys Leaf Node"
+      },
+      "type": "select",
+      "select_options":
+      [
+        {
+          "option": "select_option_one",
+          "type": "select_option",
+          "director_label_translations":
+          {
+            "en": "Select Option One"
+          },
+          "associated_keys":
+          [
+            "associated_key_one",
+            "associated_key_two",
+            "associated_key_three",
+            "associated_key_four"
+          ]
+        },
+        {
+          "option": "select_option_two",
+          "type": "select_option",
+          "director_label_translations":
+          {
+            "en": "Select Option Two"
+          },
+          "associated_keys":
+          [
+            "associated_key_four",
+            "associated_key_three",
+            "associated_key_two",
+            "associated_key_one"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "select_with_price_associated_key_leaf_node",
+      "title": "Select With Price Associated Key Leaf Node",
+      "director_label_translations":
+      {
+        "en": "Select With Price Associated Key Leaf Node"
+      },
+      "type": "select",
+      "select_options":
+      [
+        {
+          "option": "select_option_one",
+          "type": "select_option",
+          "director_label_translations":
+          {
+            "en": "Select Option One"
+          },
+          "associated_keys":
+          [
+            "price_leaf_node",
+            "associated_key_one"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "associated_key_one",
+      "title": "Associated Key One",
+      "director_label_translations":
+      {
+        "en": "Associated Key One"
+      },
+      "type": "string"
+    },
+    {
+      "key": "associated_key_two",
+      "title": "Associated Key Two",
+      "director_label_translations":
+      {
+        "en": "Associated Key Two"
+      },
+      "type": "boolean"
+    },
+    {
+      "key": "associated_key_three",
+      "title": "Associated Key Three",
+      "director_label_translations":
+      {
+        "en": "Associated Key Three"
+      },
+      "type": "boolean"
+    },
+    {
+      "key": "associated_key_four",
+      "title": "Associated Key Four",
+      "director_label_translations":
+      {
+        "en": "Associated Key Four"
+      },
+      "type": "string"
+    }
+  ]
+}
